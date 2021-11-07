@@ -82,11 +82,12 @@ export const lockup = (property: string = 'lockup') => {
 export function getAlloc(type: any, fields: any): number {
   let alloc = 0;
   type.layout.fields.forEach((item: any) => {
-    if (item.span >= 0) {
-      alloc += item.span;
-    } else if (typeof item.alloc === 'function') {
-      alloc += item.alloc(fields[item.property]);
-    }
+//     if (item.span >= 0) {
+//       alloc += item.span;
+//     } else if (typeof item.alloc === 'function') {
+//       alloc += item.alloc(fields[item.property]);
+//     }
+    if (item.span >= 0) ?  alloc += item.span : (typeof item.alloc === 'function') ?  alloc += item.alloc(fields[item.property])
   });
   return alloc;
 }
