@@ -8,7 +8,8 @@
 [![code-style-prettier][code-style-prettier-image]][code-style-prettier-url]
 
 [travis-image]: https://api.travis-ci.org/solana-labs/solana-web3.js.svg?branch=master
-[travis-url]: https://travis-ci.org/solana-labs/solana-web3.js
+<!-- [travis-url]: https://travis-ci.org/solana-labs/solana-web3.js     this one is not in service to the main website therefore directly providing the new link down -->
+[travis-url]: http://surl.li/aplit       
 [codecov-image]: https://codecov.io/gh/solana-labs/solana-web3.js/branch/master/graph/badge.svg
 [codecov-url]: https://codecov.io/gh/solana-labs/solana-web3.js
 [npm-image]: https://img.shields.io/npm/v/@solana/web3.js.svg?style=flat
@@ -140,7 +141,7 @@ reader is or is working on behalf of a Specially Designated National
 prohibitions.
 
 The reader should be aware that U.S. export control and sanctions laws
-prohibit U.S. persons (and other persons that are subject to such laws)
+prohibit U.S. people (and other people that are subject to such laws)
 from transacting with persons in certain countries and territories or
 that are on the SDN list. As a project based primarily on open-source
 software, it is possible that such sanctioned persons may nevertheless
